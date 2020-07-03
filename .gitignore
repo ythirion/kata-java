@@ -1,15 +1,17 @@
-classes
-.metadata
+*.class
 
-.gradle
+# Eclipse
 .classpath
 .project
-.settings
-bin
-example3/build
-*.iml
-*.eml
-*.ipr
-*.iws
+.settings/
+ 
+# Intellij
 .idea/
-out
+*.iws
+ 
+# Mac
+.DS_Store
+ 
+# Maven
+log/
+target/
